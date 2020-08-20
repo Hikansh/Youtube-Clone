@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/config
 /.pnp
 .pnp.js
 
@@ -10,9 +11,6 @@
 
 # production
 /build
-
-#Keys
-/keys.js
 
 # misc
 .DS_Store

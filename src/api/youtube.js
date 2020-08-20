@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { API_KEY } from '../../keys';
+import { API_KEY } from '../../config/keys';
 
 // Import yours from Keys.js in root directory
 const API_KEY_ = API_KEY;
