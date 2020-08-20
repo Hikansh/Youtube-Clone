@@ -1,10 +1,13 @@
 import axios from 'axios';
-const API_KEY = 'AIzaSyC7m9uiZWhYHNBqd0SdjFWs_Ft6Hyy5AXE';
+import { API_KEY } from '../../keys';
+
+// Import yours from Keys.js in root directory
+const API_KEY_ = API_KEY;
 
 export const baseParams = {
   part: 'snippet',
   maxResults: 5,
-  key: API_KEY,
+  key: API_KEY_,
 };
 
 export default axios.create({
